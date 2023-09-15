@@ -11,5 +11,35 @@
     <link rel="stylesheet" href="style.css" />
     <title>Product Review Card Component</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container" role="main">
+      <picture>
+        <source
+          media="(min-width: 768px)"
+          srcset="images/image-product-desktop.jpg"
+          sizes=""
+        />
+        <img src="images/image-product-mobile.jpg" alt="" />
+      </picture>
+      <div class="item-info">
+        <h1 class="header">Perfume</h1>
+        <p class="title">Gabrielle Essence Eau De Parfum</p>
+        <p class="desc">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="prices">
+          <span class="dis_price">$149.99</span>
+          <span class="orig_price">$169.99</span>
+        </div>
+        <button><i class="icon"></i>Add to Cart</button>
+      </div>
+    </div>
+    <footer>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/Himanshu-196018">@Himanshu</a>.
+    </footer>
+  </body>
 </html>
