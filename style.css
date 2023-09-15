@@ -18,7 +18,7 @@ body {
 
 /* styling product card component */
 .container {
-  margin-bottom: 50px;
+  margin: 20px 0 50px;
   max-width: 345px;
   border-radius: 12px;
   background-color: white;
